@@ -15,7 +15,6 @@ api_key = os.getenv("OPENAI_API_KEY")
 
 llm = ChatOpenAI(
     model="gpt-5-nano",
-    temperature=0.7,
     api_key=api_key
 )
 
